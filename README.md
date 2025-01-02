@@ -6,3 +6,8 @@
 ## Урок 2. Контроллеры, экшены и роутинг
 ![hw2_img1](./img/hw2/img1.png "hw2_img1")
 ![hw2_img2](./img/hw2/img2.png "hw2_img2")
+
+## Урок 3. Работа с базами данных. ORM-система Eloquent
+![hw3_img1](./img/hw3/img1.png "hw3_img1")
+![hw3_img2](./img/hw3/img2.png "hw3_img2")
+![hw3_img3](./img/hw3/img3.png "hw3_img3")
