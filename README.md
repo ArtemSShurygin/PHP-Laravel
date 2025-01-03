@@ -11,3 +11,7 @@
 ![hw3_img1](./img/hw3/img1.png "hw3_img1")
 ![hw3_img2](./img/hw3/img2.png "hw3_img2")
 ![hw3_img3](./img/hw3/img3.png "hw3_img3")
+
+## Урок 4. Работа с шаблонами. Шаблонизатор Blade
+![hw4_img1](./img/hw4/img1.png "hw4_img1")
+![hw4_img2](./img/hw4/img2.png "hw4_img2")
