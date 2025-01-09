@@ -53,3 +53,20 @@ php artisan make:migration employees_add_first_name
 ```
 php artisan migrate
 ```
+
+## Урок 9. Работа с событиями
+
+Создаем событие NewsHidden:
+```
+php artisan make:event NewsHidden
+```
+
+Создаем слушатель NewsHiddenListener:
+```
+php artisan make:listener NewsHiddenListener --event=NewsHidden
+```
+
+Создаем класс-наблюдатель NewsObserve:
+```
+php artisan make:observer NewsObserver --model=News
+```
