@@ -70,3 +70,36 @@ php artisan make:listener NewsHiddenListener --event=NewsHidden
 ```
 php artisan make:observer NewsObserver --model=News
 ```
+
+## Урок 10. Встроенные возможности Laravel
+
+
+Создаем миграцию для очереди в БД:
+```
+php artisan queue:table
+
+php artisan migrate
+```
+
+В файле .env прописываем:
+>QUEUE_CONNECTION=database
+
+Создаем задание, которое будет выполняться в очереди:
+```
+php artisan make:job ClearCache
+```
+
+Запускаем обработчик очереди:
+```
+php artisan queue:listen
+```
+
+Единоразовое выполнение всех задач в планировщике:
+```
+php artisan schedule:run
+```
+
+Запуск планировщика:
+```
+php artisan schedule:work
+```
