@@ -125,3 +125,10 @@ npm install && npm run dev
  ```
  php artisan make:policy UserPolicy --model=User
  ```
+
+ ## Урок 12. Интеграция с внешними сервисами
+
+ Подключение клиент мессенджера Telegram:
+ ```
+ composer require irazasyed/telegram-bot-sdk
+  ```
