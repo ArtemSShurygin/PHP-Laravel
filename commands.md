@@ -71,8 +71,8 @@ php artisan make:listener NewsHiddenListener --event=NewsHidden
 php artisan make:observer NewsObserver --model=News
 ```
 
-## Урок 10. Встроенные возможности Laravel
 
+## Урок 10. Встроенные возможности Laravel
 
 Создаем миграцию для очереди в БД:
 ```
@@ -102,4 +102,21 @@ php artisan schedule:run
 Запуск планировщика:
 ```
 php artisan schedule:work
+```
+
+
+## Урок 11. Реализация авторизации
+Установка библиотеки Laravel Breez:
+```
+composer require laravel/breeze
+```
+
+Установка файлов библиотеки:
+```
+php artisan breeze:install
+```
+
+Собрать фронтенд проекта:
+```
+npm install && npm run dev
 ```
