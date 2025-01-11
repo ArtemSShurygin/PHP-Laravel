@@ -15,3 +15,7 @@
 ## Урок 4. Работа с шаблонами. Шаблонизатор Blade
 ![hw4_img1](./img/hw4/img1.png "hw4_img1")
 ![hw4_img2](./img/hw4/img2.png "hw4_img2")
+
+## Урок 12. Интеграция с внешними сервисами
+![hw12_img1](./img/hw12/img1.png "hw12_img1")
+![hw12_img2](./img/hw12/img2.png "hw12_img2")

@@ -121,14 +121,29 @@ php artisan breeze:install
 npm install && npm run dev
 ```
 
- Создание политики:
- ```
- php artisan make:policy UserPolicy --model=User
- ```
+Создание политики:
+```
+php artisan make:policy UserPolicy --model=User
+```
 
- ## Урок 12. Интеграция с внешними сервисами
+## Урок 12. Интеграция с внешними сервисами
 
- Подключение клиент мессенджера Telegram:
- ```
- composer require irazasyed/telegram-bot-sdk
-  ```
+Подключение клиент мессенджера Telegram:
+```
+composer require irazasyed/telegram-bot-sdk
+```
+
+Публикацмя файлов пакета (выбрать telegram-config):
+```
+php artisan vendor:publish
+```
+
+Проверка работоспособности бота по токену:
+```
+https://api.telegram.org/bot<token>/getUpdates
+```
+
+Создание письма Welcome.php:
+```
+php artisan make:mail Welcome
+```

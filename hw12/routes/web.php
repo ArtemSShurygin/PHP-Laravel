@@ -1,7 +1,13 @@
 <?php
 
 use App\Http\Controllers\ProfileController;
+use App\Mail\Welcome;
+use App\Models\User;
+use Illuminate\Support\Facades\Mail;
 use Illuminate\Support\Facades\Route;
+use Telegram\Bot\Laravel\Facades\Telegram;
+
+require __DIR__ . '/auth.php';
 
 /*
 |--------------------------------------------------------------------------
@@ -28,4 +34,17 @@ Route::middleware('auth')->group(function () {
     Route::delete('/profile', [ProfileController::class, 'destroy'])->name('profile.destroy');
 });
 
-require __DIR__.'/auth.php';
+Route::get('/test-telegram', function () {
+    Telegram::sendMessage([
+        'chat_id' => env('TELEGRAM_CHANNEL_ID'),
+        'parse_mode' => 'HTML',
+        'text' => 'Произошло тестовое событие.'
+    ]);
+
+    return response()->json(['status' => 'success']);
+});
+
+Route::get('/test-email', function () {
+    $email = env('USER_MAIL');
+    Mail::to($email)->send(new Welcome(User::where('id', 1)->first()));
+});
