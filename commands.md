@@ -120,3 +120,8 @@ php artisan breeze:install
 ```
 npm install && npm run dev
 ```
+
+ Создание политики:
+ ```
+ php artisan make:policy UserPolicy --model=User
+ ```
