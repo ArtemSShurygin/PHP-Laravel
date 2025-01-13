@@ -147,3 +147,31 @@ https://api.telegram.org/bot<token>/getUpdates
 ```
 php artisan make:mail Welcome
 ```
+
+## Урок 13. Тестирование и отладка Laravel-приложений
+
+Создать класс-фабрику для сущности Product:
+```
+php artisan make:factory ProductFactory
+
+```
+
+Создать класс-наполнитель для сущности Product:
+```
+php artisan make:seeder ProductsSeeder
+```
+
+Наполнение базы данных сгенерированными данными:
+```
+php artisan db:seed
+```
+
+Создать тест:
+```
+php artisan make:test Products/ProductTest
+```
+
+Запустить выполнение тестов:
+```
+php artisan test
+```
