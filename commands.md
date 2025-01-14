@@ -175,3 +175,16 @@ php artisan make:test Products/ProductTest
 ```
 php artisan test
 ```
+
+
+## Урок 14. Создание администраторской панели
+
+Установить voyager командой:
+```
+composer require tcg/voyager
+```
+
+Установить voyager внутри вашего приложения командой:
+```
+php artisan voyager:install
+```
