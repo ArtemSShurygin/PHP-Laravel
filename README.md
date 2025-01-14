@@ -32,3 +32,19 @@
 ![hw13_img5](./img/hw13/destroy.png "hw13_img6")
 
 ![hw13_img6](./img/hw13/tests.png "hw13_img6")
+
+
+## Урок 14. Создание администраторской панели
+![hw14_img1](./img/hw14/img1.png "hw14_img1")
+
+![hw14_img2](./img/hw14/img2.png "hw14_img2")
+
+![hw14_img3](./img/hw14/img3.png "hw14_img3")
+
+![hw14_img4](./img/hw14/img4.png "hw14_img4")
+
+![hw14_img5](./img/hw14/img5.png "hw14_img5")
+
+![hw14_img6](./img/hw14/img6.png "hw14_img6")
+
+![hw14_img7](./img/hw14/img7.png "hw14_img7")

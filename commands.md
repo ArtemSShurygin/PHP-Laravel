@@ -188,3 +188,8 @@ composer require tcg/voyager
 ```
 php artisan voyager:install
 ```
+
+Создать администратора вашего приложения:
+```
+php artisan voyager:admin admin@mail.com --create
+```
